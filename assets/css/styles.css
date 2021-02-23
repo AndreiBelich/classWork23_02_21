@@ -5,8 +5,8 @@
   font-family: Arial, sans-serif;
 }
 
+
 .header{
-  width: 100vw;
   height: 100vh;
   background-image: url("../images/main-bg.jpg");
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@
 .color-bg{
   line-height: 1.5em;
   background-color: #926239;
-  padding: 10px;
+  padding: 20px 10px;
   text-align: center;
   color: white;
 }
@@ -74,5 +74,5 @@
 
 .inline-block{
   display:inline-block;
-  max-width: 33%;
+  max-width: 33.333%;
 }
