@@ -1,9 +1,19 @@
-.wrapper {
-  border: 3px solid rgb(165, 42, 42);
-  padding: 10px;
-  height: 500px;
-  background-image: url(../images/bg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.btn{
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: white;
+  min-width: 100px;
+  max-width: 150px;
+  width: 10%;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}
+
+.block{
+  width: 50%;
+  height: 400px;
+  overflow: auto;
 }
